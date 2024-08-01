@@ -26,6 +26,12 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
